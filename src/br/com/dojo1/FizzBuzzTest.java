@@ -45,6 +45,6 @@ public class FizzBuzzTest {
 	}
 	@Test
 	public void testListNumeroNegativo(){
-		Assert.assertEquals("valor nao pode ser negativo sua anta peluda!!!", FizzBuzz.execute(-1));
+		Assert.assertEquals("valor nao pode ser negativo!!!", FizzBuzz.execute(-1));
 	}
 }
